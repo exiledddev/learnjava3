@@ -10,6 +10,9 @@ public abstract class Animal {
         this.legs = legs;
     }
 
+    public String getColor() { return color; }
+    public int getLegs() { return legs; }
+
     public abstract void jumpHeight();
 
 }
